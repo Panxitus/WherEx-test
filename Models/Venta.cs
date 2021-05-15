@@ -1,4 +1,6 @@
 using System;
+using System.Threading.Tasks;
+
 
 namespace Venta.Models
 {
@@ -6,8 +8,9 @@ namespace Venta.Models
     {
         public int Id { get; set; }
         
-        public date fecha { get; set; } 
-
+        /*public DateTime fecha { get; set; }*/
+        //necesito una using para este atributo
+        
         public int iva { get; set; }
 
         public int descuento { get; set; } 

@@ -8,7 +8,7 @@ namespace Cliente.Models
         
         public int nombre { get; set; } 
 
-        public boolean estado { get; set; }   
+        //public boolean estado { get; set; }   
     
     }
 }
