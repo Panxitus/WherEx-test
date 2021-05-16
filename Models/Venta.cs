@@ -8,8 +8,7 @@ namespace Venta.Models
     {
         public int Id { get; set; }
         
-        /*public DateTime fecha { get; set; }*/
-        //necesito una using para este atributo
+        public DateTime fecha { get; set; }
         
         public int iva { get; set; }
 
